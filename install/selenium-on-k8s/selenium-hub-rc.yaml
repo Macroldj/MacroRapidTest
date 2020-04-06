@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
       - name: selenium-hub
-        # image: selenium/hub:2.47.1 
         image: selenium/hub
         ports:
           - containerPort: 4444 

@@ -36,5 +36,3 @@ kubectl port-forward -p <POD_NAME> 9000:5900
 Then connect to localhost:9000 with your VNC client.
 
 TODO: Figure out healthcheck for the nodes.
-
-Adapted from: https://github.com/SeleniumHQ/docker-selenium
