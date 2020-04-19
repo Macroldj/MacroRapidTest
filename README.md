@@ -5,8 +5,12 @@ Automated test times are always within 5 minutes when business keeps rising
 
 
 - [x] docker swarm 部署 浏览器集群
+  - [x] docker chrom
+  - [x] docker seleium hub
+
 - [x] k8s 可伸缩部署 浏览器集群
-- [x] 一个并发高性能程序框架
+
+- [x] 并发高性能程序框架
 
 ### Reference
 - [SeleniumHQ](https://github.com/SeleniumHQ/docker-selenium)
