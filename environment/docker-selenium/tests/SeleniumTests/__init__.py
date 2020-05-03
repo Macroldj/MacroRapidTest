@@ -1,9 +1,10 @@
 import unittest
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 class SeleniumGenericTests(unittest.TestCase):
@@ -39,7 +40,7 @@ class SeleniumGenericTests(unittest.TestCase):
     def test_visit_basic_auth_secured_page(self):
         driver = self.driver
         driver.get('http://admin:admin@the-internet.herokuapp.com/basic_auth')
-        page_message = driver.find_element_by_css_selector('.example p').text
+        page_message = driver.find_element_by_css_selector('.autoTestFrameork p').text
         self.assertTrue(page_message == 'Congratulations! You must have the proper credentials.')
 
     def test_play_video(self):

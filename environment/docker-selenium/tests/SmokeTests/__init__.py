@@ -1,6 +1,6 @@
-import unittest
-import time
 import json
+import time
+import unittest
 
 try:
     from urllib2 import urlopen

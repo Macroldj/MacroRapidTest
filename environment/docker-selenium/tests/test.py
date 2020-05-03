@@ -1,10 +1,10 @@
-import os
-import docker
-import unittest
 import logging
-import sys
+import os
 import random
+import sys
+import unittest
 
+import docker
 from docker.errors import NotFound
 
 # LOGGING #
